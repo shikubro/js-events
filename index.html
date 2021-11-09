@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listner</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+
+
+
+</head>
+<body>  
+
+
+    <div class="container">
+
+        <div class="wrap mt-5 mb-5">
+            <div class="description">
+                <h3 class="text-center bg-dark text-light p-2">DOM EVENT</h3>
+            </div>
+            <div class="div">
+                <h5>Event Object</h5>
+            </div>
+
+            <ul>
+                <li>change</li>
+                <li>submit</li>
+                <li>load</li>
+                <li>unload</li>
+                <li>open</li>
+                <li>play</li>
+                <li>canplay</li>
+                <li>playing</li>
+                <li>progress</li>
+                <li>ended</li>
+                <li>resize</li>
+                <li>scroll</li>
+                <li>toggle</li>etc..
+            </ul>
+
+            <h5>properties</h5>
+            <ul>
+                <li>type</li>
+                <li>target</li>
+                <li>preventDefault</li>
+            </ul>
+
+            <h6>
+                2. MouseEvent Object
+                <br>
+                4. FocusEvent Object
+                <br>
+                5. DragEvent Object 
+            </h6>
+
+        </div>
+
+        
+
+        <div class="change_event p-1">
+            
+            <h5 class="bg-dark text-light p-2">change event input fild</h5>
+
+            <label for="name">
+                Name: <input type="text" name="name" id="name" class="example ">
+            </label>
+            <label for="name">
+                id: <input type="number" name="id" id="id" class="eg">
+            </label>
+
+            <h1 class="show_value"></h1>
+
+        </div>
+        
+
+        <!-- Chack box even practice -->
+        <div class="change_checkbox p-1">
+
+            <h5 class="bg-dark text-light p-2">change event checkbox</h5>
+
+            <label for="Bekash">
+                Bekash: <input type="checkbox" id="Bekash" name="bekash" value="Bekash">
+            </label>
+            <br>
+            <label for="roket">
+            Roket: <input type="checkbox" id="roket" name="roket" value="Roket">
+            </label>
+            <br>
+            <label for="nagad">
+                Nagad: <input type="checkbox" id="nagad" name="nagad" value="Nagad">
+            </label>
+        </div>
+        
+        <div class="change_checkbox p-1">
+
+            <h5 class="bg-dark text-light p-2">change event option fild</h5>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <select name="py-value" id="" class="form-control py-value">
+                        <option selected>Select..</option>
+                        <option value="Bekash">Bekash</option>
+                        <option value="Nagad">Nagad</option>
+                        <option value="Roket">Roket</option>
+                    </select>
+                </div>    
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
